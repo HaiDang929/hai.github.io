@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ==============Header Tags================== */
+header {
+  /* position: fixed; */
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 600;
+  width: 100%;
+}
+
+header a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 18px 80px;
+}
+
+header a:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+/* ===============End Header Tags================== */
+
+
+
+/* ===================Main Tags============== */
+main {
+  background-color: gray;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+
+}
+
+.lesson {
+  background-color: white;
+  width: 800px;
+  margin: auto;
+  margin-top: -10px;
+}
+
+.banner {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+
+.vocab, .conver {
+  text-align: left;
+  text-indent: 20px;
+}
+
+#vocabulary, #conversation {
+  font-size: 28px;
+  text-decoration: underline;
+  text-indent: 88px;
+}
+
+#margin {
+  background-color: black;
+  /* margin-top: -30px; */
+}
+
+
+/* =============Vocabulary Table========= */
+table#newwords {
+  width: 600px;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table#newwords td, tr {
+  border: 1px solid black;
+  padding: 7px;
+}
+
+table#newwords td:first-child {
+  width: 1%;
+}
+
+table#newwords td:nth-child(2) {
+  width: 44%;
+}
+
+/* ============= End Vocabulary Table========= */
+
+/* =============Conversation Table========= */
+table#cummunicate {
+  width: 600px;
+  margin: auto;
+  /* border-collapse: collapse; */
+
+}
+
+table#cummunicate td, tr {
+  /* border: 1px solid black; */
+  padding: 7px;
+  text-align: center;
+  line-height: 20px;
+
+}
+
+table#cummunicate td:first-child {
+  width: 1%;
+}
+
+table#cummunicate td:nth-child(2) {
+  width: 44%;
+}
+
+caption {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+tr td:first-child {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+#color {
+  color: gray;
+}
+
+
+
+
+/* =============End Conversation Table========= */
+
+/* ===============End Main Tags=============== */
+
+
+
+marquee {
+  background-color: #5F0AC3;
+  color: #b4b4b4;
+  font-family: 'Comfortaa', cursive;
+}
+
+marquee a {
+  color: #e8e8e8;
+  /* text-decoration: none; */
+  font-size: 11px;
+}
+
+/* ===================Footer Tags====================== */
+footer {
+  background-color: black;
+  color: #b4b4b4;
+  font-family: 'Comfortaa', cursive;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-top: -5px;
+
+}
+
+footer a {
+  color: #b4b4b4;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+  transition-duration: 1s;
+
+}
+
+.div1 {
+  padding-left: 60px;
+}
+
+.div2 {
+  padding-right: 60px;
+}
+
+.div2 a {
+  color: #b4b4b4;
+  padding-left: 10px;
+}
+
+.div2 i:hover {
+  color: white;
+  transform: scale(1.3);
+  transition-duration: 1s;
+}
+
+.div1:hover {
+  color: white;
+  transition-duration: 1s;
+}
+
+/* ================End Footer Tags================= */
+
+
+
+/* ===============Responsive 768px============= */
+@media only screen and (max-width: 768px) {
+  header a {
+    padding: 10px 20px;
+    font-size: 22px;
+  }
+
+  marquee, footer {
+    width: 800px;
+    font-size: 10px;
+  }
+
+  header {
+    width: 800px;
+  }
+}
+
+
+
+/* ===============Responsive 1009px============= */
+@media only screen and (max-width: 1009px) {
+  header a {
+    padding: 10px 20px;
+    font-size: 26px;
+  }
+}
